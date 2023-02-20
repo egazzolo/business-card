@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.avatar {
+    width: 150px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #63F8F8;
+    color: #E07F00;
+    border-bottom: 6px solid #202020;
+    border-radius: 10px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+.card:hover {
+    color: chocolate;
+}
+.swirl {
+    width: 200px;
+}
+.border-blue {
+    border: 1px dotted blue;
+}
